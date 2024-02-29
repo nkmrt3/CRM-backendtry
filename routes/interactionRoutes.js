@@ -1,7 +1,7 @@
 // backend/routes/interactionRoutes.js
 const express = require('express');
 const router = express.Router();
-const { Interaction } = require('/home/azureuser/project/Deve/backend/models/Mongo.js');
+const { Interaction } = require('../models/Mongo.js');
 
 router.post("/interaction", async (req, res) => {
   try {
